@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Account</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+<body style="width: 100%; height: 100%; background-color: #32383e">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" style="border-bottom: 3px solid #ff7b00; font-family: 'Merriweather' ">
+    <div class="container">
+  <a class="navbar-brand" href="index.html" style="font-size: 1.6em; color: #ff7b00" >Stock Sea</a>
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="index.html">Home</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="books.html">Stocks</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="postbook.html">My Account</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em"  href="login.html">Login</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em"  href="register.html">Register</a>
+    </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+<form>
+
+  <h3 class="text-center text-white">Hello User</h3>
+  <p class="text-center text-white">Please fill in the form for the stock you are selling.</p>
+  <p class="text-center text-white">If you have any troubles, feel free to contact us!</p>
+
+  <div class="form-row"> 
+    <div class="col">
+      <h5 class="text-white">Stock name:</h5>
+      <input type="text" class="form-control" placeholder="Type name of Stock" required>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="col mt-3">
+      <h5 class="text-white">Stock id:</h5>
+      <input type="text" class="form-control" placeholder="Type stock id number" required>
+    </div>
+   </div>
+
+  <div class="form-row">
+    <div class="col mt-3">
+      <h5 class="text-white">Price:</h5>
+      <input type="text" class="form-control" placeholder="Specify value of the stock" required>
+    </div>
+   </div>
+
+   <div class="form-row">
+    <div class="col mt-3">
+    <label for="sel1" class="text-white h5">Select category:</label>
+  <select class="form-control" id="category" required>
+    <option value="technology">Technology</option>
+    <option value="energy">Energy</option>
+    <option value="healthCare">Health Care</option>
+    <option value="science">Science and Technology</option>
+    <option value="automobile">Automobile</option>
+    <option value="education">Education</option>
+    <option value="consumerGoods">Consumer Goods</option>
+    <option value="banks">Banks</option>
+    <option value="teleCommunications">Telecommunications</option>
+    <option value="entertainment">Entertainment</option>
+  </select>
+   </div>
+   </div>
+
+<div class="form-row mt-3">
+  <button class="btn btn-warning btn-block m-auto">Submit</button>
+</div>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stock Sea</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body style="width: 100%; height: 100%; background-color: #32383e">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" style="border-bottom: 3px solid #ff7b00; font-family: 'Merriweather' ">
+    <div class="container">
+  <a class="navbar-brand" href="index.html" style="font-size: 1.6em; color: #ff7b00" >Stock Sea</a>
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="index.html">Home</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="books.html">Stocks</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em" href="postbook.html">My Account</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em"  href="login.html">Login</a>
+      <a class="nav-item nav-link text-white ml-3" style="font-size: 1.1em"  href="register.html">Register</a>
+    </div>
+    </div>
+</nav>
+
+
+<div class="container">
+  <div class="md-form  mb-3 mt-5">
+  <input class="form-control" type="text" placeholder="Search by stock name or id" aria-label="Search">
+  </div>
+  <p class="text-white text-center mt-5">If you don't want to search for specific stock. Try searching stocks by your own criteria.</p>
+
+  <br>
+  <div class="form-group">
+
+  <div class="row">
+  <div class="col">
+  <label for="sel1" class="text-white">Select category:</label>
+  <select class="form-control" id="category">
+    <option value="technology">Technology</option>
+    <option value="energy">Energy</option>
+    <option value="healthCare">Health Care</option>
+    <option value="science">Science and Technology</option>
+    <option value="automobile">Automobile</option>
+    <option value="education">Education</option>
+    <option value="consumerGoods">Consumer Goods</option>
+    <option value="banks">Banks</option>
+    <option value="teleCommunications">Telecommunications</option>
+    <option value="entertainment">Entertainment</option>
+  </select>
+  </div>
+
+  <div class="col">
+  <label for="sel1" class="text-white">Price up to: </label>
+  <select class="form-control" id="price">
+    <option value="10">$10</option>
+    <option value="500">$500</option>
+    <option value="1000">$1000</option>
+    <option value="2000">$2000</option>
+    <option value="5000">$5000</option>
+    <option value="any">Any</option>
+  </select>
+  </div>
+
+    <div class="col">
+  <label for="sel1" class="text-white">Type: </label>
+  <select class="form-control" id="sel1">
+    <option value="new">New</option>
+    <option value="resale">Resale</option>
+    <option value="trending">Trending</option>
+  </select>
+  </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
